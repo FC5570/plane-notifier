@@ -11,3 +11,7 @@ Notifies you on WhatsApp when planes are flying over certain coordinates within 
 2. `lon`: The longitude of the location
 3. `radius`: The radius of search. This must be in **nautical miles**.
 4. `phoneNumber`: The phone number of the person you wish to send the notifications to. The phone number must contain the country code at the start, and `@c.us` at the end. For example: 911234567890@c.us, the country code is 91, everything after is the phone number, with `@c.us` after the phone number.
+
+## Preview
+![image](https://github.com/FC5570/plane-notifier/assets/68158483/499df67c-cd1b-4427-88a9-89175e0f090c)
+![image](https://github.com/FC5570/plane-notifier/assets/68158483/80b367ae-60ff-435c-a323-bb26b80deebc)
