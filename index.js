@@ -12,11 +12,10 @@ const client = new Client({
 
 const bree = new Bree({
 	logger: false,
-	root: false,
 	jobs: [
 		{
 			name: 'main',
-			path: resolve('./src/jobs/main.js'),
+			path: resolve('./jobs/main.js'),
 			interval: 'every 5 seconds'
 		}
 	]
@@ -27,7 +26,7 @@ client.on('qr', (qr) => {
 	console.log(`Please scan the above QR code to log into whatsapp`);
 });
 client.on('ready', () => {
-	console.log(`Whatsapp Client logged in`);
+	console.log('Whatsapp Client logged in');
 	require('./jobs/index')(bree, client);
 });
 
