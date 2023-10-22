@@ -1,9 +1,9 @@
 {
-	"name": "overhead-plane-notifier",
+	"name": "plane-notifier",
 	"version": "1.0.0",
 	"description": "Notifies you on WhatsApp when planes are flying over certain coordinates within a specific radius.",
 	"main": "index.js",
-	"repository": "https://github.com/FC5570/overhead-plane-notifier",
+	"repository": "https://github.com/FC5570/plane-notifier",
 	"author": "FC5570",
 	"license": "MIT",
 	"dependencies": {
